@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: procedure_schduler
+  datasource:
+    url: jdbc:postgresql://localhost:5432/prowatchdb
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+    jpa:
+      hibernate:
+        ddl-auto: none
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
+
+    liquibase:
+      enabled: true
+      change-log: classpath:db/changelog/db.changelog-master.yaml
+      default-schema: public
+      liquibase-schema: public
+
+quartz:
+  job-store-type: jdbc   # IMPORTANT: DB persistence enabled
+
+  jdbc:
+    initialize-schema: never  # because you are creating tables via Liquibase/SQL
+
+  properties:
+    org:
+      quartz:
+        scheduler:
+          instanceName: QUARTZ_DB_SCHEDULER
+          instanceId: AUTO
+
+        threadPool:
+          class: org.quartz.simpl.SimpleThreadPool
+          threadCount: 10
+          threadPriority: 5
+
+        jobStore:
+          class: org.quartz.impl.jdbcjobstore.JobStoreTX
+          driverDelegateClass: org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+          tablePrefix: QRTZ_
+          isClustered: true
+          misfireThreshold: 60000
+          clusterCheckinInterval: 20000
+
+        dataSource:
+          quartzDataSource:
+            provider: hikaricp

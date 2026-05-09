@@ -1,0 +1,17 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 001-users-table
+      author: karan
+      changes:
+        - sqlFile:
+            path: db/changelog/quartz_schema.sql
+            relativeToChangelogFile: false
+
+  - changeSet:
+      id: 002-users-table
+      author: karan
+      changes:
+        - sqlFile:
+            path: db/changelog/procedure_schema.sql
+            relativeToChangelogFile: false
