@@ -2,7 +2,7 @@
 -- TABLE: tenant_procedure_registry
 -- ==========================================
 
-CREATE TABLE tenant_procedure_registry (
+CREATE TABLE IF NOT EXISTS tenant_procedure_registry (
                                            id BIGSERIAL PRIMARY KEY,
 
                                            tenant_id VARCHAR(100) NOT NULL,
