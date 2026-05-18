@@ -9,7 +9,7 @@ spring:
     job-store-type: jdbc
 
     jdbc:
-      initialize-schema: never
+      initialize-schema: always
 
     properties:
       org:
