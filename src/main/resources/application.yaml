@@ -2,9 +2,9 @@ spring:
   application:
     name: proWatch-scheduler
   datasource:
-    url: jdbc:postgresql://localhost:5432/prowatchdb
+    url: jdbc:postgresql://10.111.1.34:5432/pro_watch_v5_dev
     username: postgres
-    password: root
+    password: postgres
     driver-class-name: org.postgresql.Driver
 
   quartz:
