@@ -1,7 +1,7 @@
-package com.in2it.cats.procedure_schduler.controller;
+package com.in2it.cats.procedure_scheduler.controller;
 
-import com.in2it.cats.procedure_schduler.entity.TenantProcedure;
-import com.in2it.cats.procedure_schduler.service.SchedulerService;
+import com.in2it.cats.procedure_scheduler.entity.TenantProcedure;
+import com.in2it.cats.procedure_scheduler.service.SchedulerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

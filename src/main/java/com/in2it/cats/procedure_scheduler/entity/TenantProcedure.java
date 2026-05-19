@@ -1,4 +1,4 @@
-package com.in2it.cats.procedure_schduler.entity;
+package com.in2it.cats.procedure_scheduler.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

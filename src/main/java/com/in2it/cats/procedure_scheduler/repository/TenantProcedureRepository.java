@@ -1,6 +1,6 @@
-package com.in2it.cats.procedure_schduler.repository;
+package com.in2it.cats.procedure_scheduler.repository;
 
-import com.in2it.cats.procedure_schduler.entity.TenantProcedure;
+import com.in2it.cats.procedure_scheduler.entity.TenantProcedure;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

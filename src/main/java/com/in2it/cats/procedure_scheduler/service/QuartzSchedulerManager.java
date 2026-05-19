@@ -1,7 +1,7 @@
-package com.in2it.cats.procedure_schduler.service;
+package com.in2it.cats.procedure_scheduler.service;
 
-import com.in2it.cats.procedure_schduler.entity.TenantProcedure;
-import com.in2it.cats.procedure_schduler.quartz.ProcedureJob;
+import com.in2it.cats.procedure_scheduler.entity.TenantProcedure;
+import com.in2it.cats.procedure_scheduler.quartz.ProcedureJob;
 import lombok.RequiredArgsConstructor;
 import org.quartz.*;
 import org.springframework.stereotype.Service;

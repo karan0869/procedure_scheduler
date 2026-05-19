@@ -1,7 +1,7 @@
-package com.in2it.cats.procedure_schduler.quartz;
+package com.in2it.cats.procedure_scheduler.quartz;
 
 
-import com.in2it.cats.procedure_schduler.service.ProcedureExecutionService;
+import com.in2it.cats.procedure_scheduler.service.ProcedureExecutionService;
 import lombok.RequiredArgsConstructor;
 import org.quartz.Job;
 import org.quartz.JobDataMap;

@@ -1,6 +1,6 @@
-package com.in2it.cats.procedure_schduler.startup;
+package com.in2it.cats.procedure_scheduler.startup;
 
-import com.in2it.cats.procedure_schduler.service.QuartzSyncService;
+import com.in2it.cats.procedure_scheduler.service.QuartzSyncService;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

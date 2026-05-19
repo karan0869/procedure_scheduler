@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: proWatch-scheduler
   datasource:
     url: jdbc:postgresql://localhost:5432/prowatchdb
     username: postgres

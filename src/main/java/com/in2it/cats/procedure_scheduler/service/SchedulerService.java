@@ -1,7 +1,7 @@
-package com.in2it.cats.procedure_schduler.service;
+package com.in2it.cats.procedure_scheduler.service;
 
-import com.in2it.cats.procedure_schduler.entity.TenantProcedure;
-import com.in2it.cats.procedure_schduler.repository.TenantProcedureRepository;
+import com.in2it.cats.procedure_scheduler.entity.TenantProcedure;
+import com.in2it.cats.procedure_scheduler.repository.TenantProcedureRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.in2it.cats</groupId>
-	<artifactId>procedure_schduler</artifactId>
+	<artifactId>procedure_scheduler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>

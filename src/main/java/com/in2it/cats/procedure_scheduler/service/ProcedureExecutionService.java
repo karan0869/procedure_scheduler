@@ -1,4 +1,4 @@
-package com.in2it.cats.procedure_schduler.service;
+package com.in2it.cats.procedure_scheduler.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
